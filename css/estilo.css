@@ -119,12 +119,15 @@ footer {
 	float: right	;
 }
 
+.redes {
+	display: flex;
+    align intems: center;
+    justify-content: center;
+}
 .redes	a img {
 	width: 30px;
     margin: 5px;
-    float: middle;
-   
-}
+   }
 
 form {
 width:420px;
@@ -151,12 +154,12 @@ border-radius:10px;
 }
 
 .btn{
-	width:40%;
-	height:20px;
+	width:60%;
+	height:30px;
 	background-color:#BFBFBF ;
 	color: white;
 	border-radius:10px;
-	font-size: 10px;
+	font-size: 15px;
 }	
 
 .consulta {
