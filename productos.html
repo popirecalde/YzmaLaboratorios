@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yzma Laboratorios</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+/>
+
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"
+          />
+
+
+ <style>
+      #myCarousel {
+        --f-carousel-spacing: 10px;
+        --f-carousel-slide-width: 100%;
+        --f-progress-color: #ff3520;
+      }
+
+      #myCarousel .f-carousel__slide {
+        padding: 50px;
+        background: #eee;
+      }
+    </style>
+
+</head>
+
+</head>
+<body>
+
+	<main>
+
+<header>
+	
+	<a href="index.html"><article> <img src="img/ylogo.png" class= "logo">
+	</article> </a>
+	
+	<h1>YZMA LABORATORIOS</h1>
+ </header>
+
+
+<nav>
+
+<ul>
+	<li>
+		<a href="contacto.html"> CONTACTO </a>
+			</li>
+	<li> 
+		<a href="productos.html"> PRODUCTOS </a>
+			</li>
+	<li>
+		<a href="nosotros.html"> NOSOTROS </a>
+			</li>
+
+</ul>	
+
+</nav>
+
+
+<section>
+
+<h1> Nuestros Productos</h1>
+
+<div class="f-carousel" id="myCarousel">
+
+  <div class="f-carousel__slide">
+
+  <img src="img/piedras.jpg" class="produ"> 
+  <br>
+  <br> 
+  <p> Resina de copal de uso tópico para proteger y equilibrar tu o su campo energético. </p>
+	</div>
+
+  <div class="f-carousel__slide">
+  <img src="img/tonico.jpg" class="produ"> 
+<br>
+<br> 
+  <p> Infusión de lemongrass, ciprés, árbol del té para ayudar a movilizar la energía y apoyar sistema linfático.  </p>
+	</div>
+
+  <div class="f-carousel__slide">
+	<img src="img/crema.jpg" class="produ" > 
+<br>
+<br> 
+	<p> Ungüento de aceite que apoyan nuestro bienestar y el de los seres que amamos.</p>
+</div>
+
+  <div class="f-carousel__slide">
+	<img src="img/untable.jpg"  class="produ"> 
+<br>
+<br> 
+<p> Exfoliante corporal elaborado con minerales y plantas medicinales aromáticas, que tonifica y renueva la dermis. </p>
+</div>
+
+ <div class="f-carousel__slide">
+	<img src="img/gotas.jpg"  class="produ"> 
+<br>
+<br> 
+<p> Óleos macerados botánicos para nutrir, humectar y resplandecer tu piel. </p>
+</div>
+
+</div>
+
+<script>
+	const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+      new Carousel(document.getElementById("myCarousel"), {
+        Autoplay : {
+          timeout : 5000
+        }
+      }, {
+        Autoplay
+      });
+    </script>
+
+</section>
+
+<footer> 
+ 	<div class="footer-logo">
+ 		<img src="img/disney-logo.png">
+ 	</div>
+
+<p class="nombre">
+  <a href="img/relevamiento.pdf" target="_blank">Florencia Recalde</a>
+</p>
+
+
+ 	
+
+ 	<div class="redes">
+ 		<a href="#"><img src="img/facebook.png"></a>
+ 		
+ 		<a href="#"><img src="img/instagram.png"></a>
+ 		
+ 		<a href="#"><img src="img/linkedin.png"></a>
+ 	</div>
+  
+ 	 </footer>
+
+
+	</main>
+
+</body>
+</html>
