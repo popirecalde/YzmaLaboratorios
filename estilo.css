@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;}
+
+body {background-color: #DEE0E3;
+	
+}
+
+main {
+	width: 960px;
+	background-color: #F2F2F2;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+header{
+	width: 50%;
+	height: 100px;
+	background-color: #F2F2F2;
+	float: left;
+}
+
+.logo {
+	width: 160 px;
+	height: 100 px;
+	float: left;
+}
+nav { 
+	width: 50%;
+	height: 100px;
+	background-color: #F2F2F2;
+	float: right;
+
+ }
+
+h1	{
+	color: #658C68;
+	font-size: 25px;
+	margin-left: 60px;
+	margin-top: 65px;
+	font-family: arial;
+}
+
+h2 {
+	color:#1F2024 ;
+	font-size: 10 px;
+}
+
+ul li {
+	display: inline-block;
+	padding: 20px 20px;
+	margin-top: 48px;
+	float: right;
+}
+
+a {
+	color: #658C68;
+	text-decoration: none;
+}
+
+
+section {
+	width: 100%;
+	height: 370px;
+	background-color:#F2F2F2;
+	text-align: center;
+	margin: auto ;
+	clear: both;
+}
+
+.img_principal{
+	width: 100%;
+}
+
+p {color: #658C68
+} 
+
+.izquierda{
+	width: 360px;
+	height: 180px;
+	background-color:#F2F2F2;
+	float: left;
+	text-align: justify;
+	padding-left: 8px;
+}
+
+.derecha {
+	width: 600px;
+	height: 180px;
+	background-color: #F2F2F2;
+	float: right;
+    justify-content: space-between; 
+}
+
+.derecha img {
+    width: 30%; 
+    height: auto;
+    float: right;
+    margin-left: 20px;
+
+ }
+    
+footer {
+   	width: 960px;
+   	height: 60px;
+ background-color: #F2F2F2;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.footer-logo img {
+	width: 50px;
+	float: left	;
+}
+
+.nombre{
+	float: right	;
+}
+
+.redes {
+	display: flex;
+    align intems: center;
+    justify-content: center;
+}
+.redes	a img {
+	width: 30px;
+    margin: 5px;
+   }
+
+form {
+width:420px;
+background-color: #F2F2F2;
+padding:0px;
+margin-left: auto;
+margin-right: auto;
+float: right;
+}
+
+.caja{
+width:70%;
+background-color:#658C68;
+color: white;
+border-radius:10px;
+}
+
+.comentario{
+	width:80%;
+	height:100px;
+	background-color:#658C68;
+	color: white;
+	border-radius:10px;
+}
+
+.btn{
+	width:60%;
+	height:30px;
+	background-color:#BFBFBF ;
+	color: white;
+	border-radius:10px;
+	font-size: 15px;
+}	
+
+.consulta {
+	float: right;
+	margin-top: 70px;
+	margin-right: 110px;
+}
+
+.produ{
+	width: 150px;
+	height: 200px;
+}
+
+.nosotras {
+	width: 50%;
+	height: 90%;
+float: right;
+	margin-top: auto;
+	padding-top: 10px;
+}
+
+h3 {
+	color: black;
+	font-size: 30px;
+	float: left;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+.descrip {
+	width: 400px;
+	height: 90%;
+	background-color: #B8C9A9;
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+	padding-top: 20px;
+	border-radius:10px;
+	}
+
+p1 {
+	color:#658C68;
+}
+
+p2{color: black;
+margin: 20px}
